@@ -12,9 +12,7 @@ import { Home } from "./home/Home";
 // const store = configureStore();
 
 ReactDOM.render(
-  <div>
-    <Home />
-  </div>,
+    <Home />,
   document.getElementById('root')
 );
 
