@@ -6,13 +6,23 @@ import * as ReactDOM from 'react-dom';
 // import { Router } from 'react-router';
 // import { App } from './app';
 import { Home } from "./home/Home";
+import { Provider } from 'react-redux';
+// import { createStore } from './common/store';
+
+// const store = createStore();
+
+
 
 // prepare store
 // const history = createBrowserHistory();
 // const store = configureStore();
 
 ReactDOM.render(
-    <Home />,
+  <Provider>
+    <Home />
+  </Provider>
+  ,
+
   document.getElementById('root')
 );
 
